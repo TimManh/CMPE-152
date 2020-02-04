@@ -1,5 +1,4 @@
 
-
 PROGRAM President(input, output);
 CONST
     MAX_PRESIDENT = 100;

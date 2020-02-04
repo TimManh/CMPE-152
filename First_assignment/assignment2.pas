@@ -1,3 +1,4 @@
+
 program Merge2array;
 type
     arr = array[1..20] of integer;
