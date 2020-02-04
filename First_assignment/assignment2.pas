@@ -33,6 +33,9 @@ begin
     l:=1;
     i:=1;
     j:=1;
+	{Setting cursor on each array and compare the items inside the both cursors
+	and store the larger one into the merge array
+	}
     while i<=len1 do
         begin
             if (j<=len2) and (array1[i]>array2[j]) then
@@ -47,6 +50,8 @@ begin
                 end;
             inc(l);
         end;
+	{This loop check the rest of value inside the second array and store it into 
+	the merge array when the first array finish its array.}
     while j<=len2 do
         begin
             array3[l] := array2[j];
