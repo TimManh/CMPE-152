@@ -1,0 +1,29 @@
+Length of your first array                                                             
+7                                                                                      
+Enter your first array value:                                                          
+1                                                                                      
+5                                                                                      
+9                                                                                      
+12                                                                                     
+16                                                                                     
+21                                                                                     
+25                                                                                     
+These are your first value:                                                            
+1 5 9 12 16 21 25                                                                      
+Length of your second array                                                            
+10                                                                                     
+Enter your second array value:                                                         
+3                                                                                      
+7                                                                                      
+12                                                                                     
+13                                                                                     
+14                                                                                     
+15                                                                                     
+16                                                                                     
+19                                                                                     
+20                                                                                     
+26                                                                                     
+These are your second value:                                                           
+3 7 12 13 14 15 16 19 20 26                                                            
+Merge two array into one                                                               
+1 3 5 7 9 12 12 13 14 15 16 16 19 20 21 25 26 

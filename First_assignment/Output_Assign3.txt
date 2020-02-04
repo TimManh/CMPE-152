@@ -1,0 +1,80 @@
+Start year: 1961
+End year  : 1963
+First name: John
+Middle name:  
+Last name :Kennedy
+
+Start year: 1963
+End year  : 1969
+First name: Lyndon
+Middle name:  
+Last name :Johnson
+
+Start year: 1969
+End year  : 1974
+First name: Richard
+Middle name:  
+Last name :Nixon
+
+Start year: 1974
+End year  : 1977
+First name: Gerald
+Middle name:  
+Last name :Ford
+
+Start year: 1977
+End year  : 1981
+First name: Jimmy
+Middle name:  
+Last name :Carter
+
+Start year: 1981
+End year  : 1989
+First name: Ronald
+Middle name:  
+Last name :Reagan
+
+Start year: 1989
+End year  : 1993
+First name: George
+Middle name: H.W.
+Last name : Bush
+
+Start year: 1993
+End year  : 2001
+First name: Bill
+Middle name:  
+Last name :Clinton
+
+Start year: 2001
+End year  : 2009
+First name: George
+Middle name: W.
+Last name : Bush
+
+Start year: 2009
+End year  : 2017
+First name: Barack
+Middle name:  
+Last name :Obama
+
+In the 1975
+President Ford  Gerald is in the office
+
+In the 1963
+President Kennedy  John is in the office
+President Johnson  Lyndon is in the office
+
+In the 1989
+President Reagan  Ronald is in the office
+President  Bush H.W.George is in the office
+
+In the 2019
+There is no president show in the record in 2019
+
+In the 2001
+President Clinton  Bill is in the office
+President  Bush W.George is in the office
+
+In the 2016
+President Obama  Barack is in the office
