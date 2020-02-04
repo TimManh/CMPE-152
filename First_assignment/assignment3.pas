@@ -6,6 +6,7 @@ CONST
     MAX_NAME_LENGTH =16;
     NAME_SEPARATOR = ' ';
 TYPE
+    {Create record and string data type for display the infor}
     nameString = PACKED ARRAY[1..MAX_NAME_LENGTH] OF char;
     presidentRec = RECORD
                         start_year : integer;
@@ -20,6 +21,8 @@ VAR
     presidents : ARRAY [1..MAX_PRESIDENT] OF presidentRec;
     f_letter, s_letter: char;
     f_s_year: integer;
+    
+{PROCEDURE read first name of president in the record}
 PROCEDURE readName(VAR name : nameString);
     VAR
         i : integer;
@@ -28,6 +31,7 @@ PROCEDURE readName(VAR name : nameString);
         i :=0;
         name := ' ';
         REPEAT
+            {Loop until ' ' and store the each character in the name PACKED ARRAY}
             IF NOT eoln THEN BEGIN
                 read(ch);
                 IF(ch <> NAME_SEPARATOR) 
@@ -39,6 +43,8 @@ PROCEDURE readName(VAR name : nameString);
         UNTIL eoln OR (ch = NAME_SEPARATOR);
 
     END;
+
+{PROCEDURE read the middle name of president in the record}
 PROCEDURE readMName(VAR name: nameString);
     VAR
         i:integer;
@@ -48,6 +54,7 @@ PROCEDURE readMName(VAR name: nameString);
         i:=0;
         name := ' ';
         REPEAT
+            {This loop to store the character with its period}
             IF NOT eoln THEN BEGIN
                 read(ch);
                 read(period);
@@ -62,6 +69,8 @@ PROCEDURE readMName(VAR name: nameString);
             END;
         UNTIL eoln OR(period <>'.');
     END;
+    
+{PROCEDURE to read last name of the president}
 PROCEDURE readlName(VAR name: nameString);
     VAR
         i:integer;
@@ -82,6 +91,8 @@ PROCEDURE readlName(VAR name: nameString);
             END;
         UNTIL eoln OR (ch = NAME_SEPARATOR);
     END;
+
+{PROCEDURE to read the file of president on the input file}
 PROCEDURE readPresident;
     VAR
         i: integer;
@@ -108,6 +119,8 @@ PROCEDURE readPresident;
         END;
         presidentCount := count;
     END;
+    
+{PROCEDURE to print out the president into record}
 PROCEDURE printPresidents;
 
     VAR
@@ -127,6 +140,8 @@ PROCEDURE printPresidents;
         END;
         writeln;
     END;
+    
+{PROCEDURE to find the president in the assign year}
 PROCEDURE searchPresident;
     VAR
         i:integer;
@@ -141,7 +156,7 @@ PROCEDURE searchPresident;
                 WITH presidents[i] DO BEGIN
                     IF(year >= start_year) AND(year<= end_year) THEN BEGIN
                         inc(j);
-                        writeln('President ', last_name,' ',middle_name,first_name,' is in the office');
+                        writeln('President ',last_name,' ',middle_name,first_name,' is in the office');
                     END
                 END;
             END;
@@ -152,6 +167,8 @@ PROCEDURE searchPresident;
             read(year);
         UNTIL(year<0);
     END;
+    
+{Main function start here}
 BEGIN
   readPresident;
   printPresidents;
