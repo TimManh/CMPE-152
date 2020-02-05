@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;helloworld.cpp/src/helloworld.cpp.cpp&apos;" deleteContents="false" description="Delete resource &apos;helloworld.cpp/src/helloworld.cpp.cpp&apos;" element1="/helloworld.cpp/src/helloworld.cpp.cpp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1580862942025"/>&#x0A;<refactoring comment="Delete resource &apos;helloworld.cpp&apos;" deleteContents="true" description="Delete resource &apos;helloworld.cpp&apos;" element1="/helloworld.cpp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1580863934855"/>
-</session>
