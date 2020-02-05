@@ -1,0 +1,10 @@
+17:09:09 **** Incremental Build of configuration Debug for project Second_Assignment ****
+make all 
+'Building target: Second_Assignment.exe'
+'Invoking: Cross G++ Linker'
+g++  -o "Second_Assignment.exe"  ./src/Second_Assignment.o   
+'Finished building target: Second_Assignment.exe'
+' '
+
+17:09:12 Build Finished (took 2s.929ms)
+
