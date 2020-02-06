@@ -1,7 +1,7 @@
 <h1>READ THIS ONE FIRST</h1>
 <ul>
 	<li>
-		Download Boost.org
+		Download <a href="www.Boost.org">Boost</a> 
 	</li>
 	<li>
 		Extract Boost file
