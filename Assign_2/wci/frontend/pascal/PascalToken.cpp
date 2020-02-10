@@ -104,7 +104,7 @@ void PascalToken::initialize()
         PascalTokenType::SEMICOLON,
         PascalTokenType::COLON,
         PascalTokenType::QUOTE,
-		PascalTokenType::EXIT_ARROW,
+
         PascalTokenType::EQUALS,
         PascalTokenType::NOT_EQUALS,
 
@@ -119,7 +119,8 @@ void PascalToken::initialize()
         PascalTokenType::LEFT_BRACE,
         PascalTokenType::RIGHT_BRACE,
         PascalTokenType::UP_ARROW,
-        PascalTokenType::DOT_DOT
+        PascalTokenType::DOT_DOT,
+		PascalTokenType::EXIT_ARROW
 
     };
 
