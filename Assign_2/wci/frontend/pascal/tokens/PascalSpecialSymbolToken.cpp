@@ -20,9 +20,7 @@ void PascalSpecialSymbolToken::extract() throw (string)
 {
     char current_ch = current_char();
     bool good_symbol = true;
-//    char temp;
     text = current_ch;
-
     switch (current_ch)
     {
         // Single-character special symbols.
@@ -33,12 +31,17 @@ void PascalSpecialSymbolToken::extract() throw (string)
             next_char();  // consume character
             break;
         }
+        // Check for '=' sign
         case '=':{
         	current_ch = next_char();
-        	while (current_ch == '=' ||current_ch == '>')
-        	{
-        	  text += current_ch;
-        	  current_ch =next_char();  // consume '='
+        	if (current_ch == '='){
+
+        		char temp = peek_char();
+        		if(temp =='>'){
+        			text =text+ current_ch+temp;
+        			next_char();
+        			next_char();
+        		}
         	}
         	break;
         }
